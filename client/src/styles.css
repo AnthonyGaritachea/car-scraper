@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+/* login component */ 
+.login-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+}
+
+.login-input {
+    display: block;
+}
+
+.login-signup {
+    text-decoration: underline;
+    color: blue;
+    cursor: pointer; 
+}

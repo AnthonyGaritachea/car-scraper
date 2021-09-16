@@ -1,11 +1,14 @@
 import React from 'react';
 
+import Login from './Login.jsx';
+import '../styles.css'
+
 const App = () => {
     
     return(
-        <div>
-            hello from app.js
-        </div>
+        <>
+            <Login />
+        </>
     )
 };
 
