@@ -13,6 +13,14 @@
   transform: translate(-50%,-50%);
 }
 
+.login-container button {
+    display: block
+}
+
+.login-container p:nth-of-type(1) {
+    display: inline-block;
+}
+
 .login-input {
     display: block;
 }
@@ -21,4 +29,24 @@
     text-decoration: underline;
     color: blue;
     cursor: pointer; 
+    display: inline
 }
+
+/* SignupModal component */
+.signup-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  width: 450px;
+  height: 250px;
+  background-color: lightskyblue;
+}
+
+.signup-input {
+    display:block
+}
+
+
